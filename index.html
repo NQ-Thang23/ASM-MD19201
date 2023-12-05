@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM</title>
+    <link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/boo
+tstrap.min.css" rel="stylesheet">
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootst
+rap.bundle.min.js"></script>
+</head>
+<Style>
+    .item{
+      display: flex;
+      flex-flow: row wrap;
+      padding: 30px 25px;
+    }
+    .item>.card{
+      margin: 10px;
+    }
+    footer{
+      background-color: black;
+      max-width: 100%;
+    }
+  
+</Style>
+<body>
+      <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body sticky-top" >
+        <div class="container-fluid ">
+          <a class="navbar-brand text-light" href="#">
+            <img src="./anh/meclogo.png" alt="Logo" width="40" height="40" class="d-inline-block  ">
+            Mercedes-Benz</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="asm2.html">Chi tiết</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="asm3.html">Liên Hệ</a>
+              </li>
+            </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./anh/banner.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mercedes-Benz</h5>
+                <p>Sang Trọng - Đẳng Cấp - Thời Thượng - Tự Do Vô Hạn</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://di-uploads-pod3.dealerinspire.com/rbmofalpharettamercedesbenz/uploads/2018/07/2018-Mercedes-Benz-C-Class-AMG-Models-Banner-71918.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mercedes-Benz</h5>
+                <p>Sang Trọng - Đẳng Cấp - Thời Thượng - Tự Do Vô Hạn</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://di-uploads-pod5.dealerinspire.com/mercedesbenzofstlouis/uploads/2018/08/2018-MB-C-Class-Sun-Banner.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Mercedes-Benz</h5>
+                <p>Sang Trọng - Đẳng Cấp - Thời Thượng - Tự Do Vô Hạn</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar bg-dark border-bottom border-body">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">
+            <img src="./anh/meclogo.png" alt="Logo" width="40" height="40" class="d-inline-block  ">
+            <b class="text-light">Mercesdes-Benz</b>
+          </a>
+        </div>
+      </nav>
+    <aside>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 bg-dark">
+            <div class="list-group pt-5">
+              <a href="#" class="list-group-item list-group-item-action ">Điện</a>
+              <a href="#" class="list-group-item list-group-item-action">Sedans</a>
+              <a href="#" class="list-group-item list-group-item-action">Xe địa hình / SUV</a>
+              <a href="#" class="list-group-item list-group-item-action">Xe coupe</a>
+              <a href="#" class="list-group-item list-group-item-action">Xe đa dụng</a>
+              <a href="#" class="list-group-item list-group-item-action">Xem tất cả</a>
+            </div>
+          </div>
+          <div class="col-md-9 bg-dark">
+              <div class="item">
+                <div class="card" style="width: 18rem;">
+                  <img src="./anh/mêc.png" class="card-img-top mt-4" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mercedes-Benz M-Class Sport</h5>
+                    <p class="card-text"> Chạm và cảm nhận tương lai tích hợp các chi tiết công nghệ thông tin và giải trí bậc nhất. </p>
+                    <a href="#" class="btn btn-primary mt-2">Xem Chi Tiết</a>
+                  </div>
+                </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./anh/CLA MEC.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mercedes-Benz CLA200 D</h5>
+                  <p class="card-text">Thiết kế bên ngoài liền mạch nổi bật sự phóng khoáng và hiện đại trong kỷ nguyên mới. Kỷ nguyên của thế hệ mới</p>
+                  <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./anh/mecs63.png" class="card-img-top mt-5" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-4">Mercedes Benz S63 AMG</h5>
+                  <p class="card-text">Sự thoải mái từ các trang bị tiện nghi độc nhất và sự an tâm từ các công nghệ an toàn và tiên tiến nhất hiện nay. </p>
+                  <a href="#" class="btn btn-primary mt-2">Xem Chi Tiết</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./anh/mecv.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mercedes-Benz Vito Minivan</h5>
+                  <p class="card-text">Thiết kế ngoại thất đầy biểu cảm là nhờ sự kết hợp của những đường nét nổi bật và bề mặt lớn, yên tĩnh. </p>
+                  <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./anh/maybachs600.png" class="card-img-top mt-4" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Mercedes Maybach S-Class</h5>
+                  <p class="card-text">Một tác phẩm được thiết kế riêng từ những tay nghề thủ công tinh xảo cùng chất liệu sang trọng bậc nhất.</p>
+                  <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./anh/mecM2.2 (2).png" class="card-img-top mt-4" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-2">BMW Mercedes-Benz M2 Coupe</h5>
+                  <p class="card-text">Hiệu suất cao, diện mạo mới.Thoả mãn phong cách riêng  và trải nghiệm lái thú vị.</p>
+                  <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </aside>
+      <footer>
+        <div class="card text-center">
+          <div class="card-header">
+            Mercedes-Benz  
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kết nối với Mercedes-Benz</h5>
+            <p class="card-text">Hãy giữ kết nối và nhận ngay quà tặng chính hãng để nâng tầm trải nghiệm dịch vụ.</p>
+            <a href="#" class="btn btn-primary">Đăng ký</a>
+          </div>
+          <div class="card-footer text-body-secondary">
+            Nguyễn Quý Thắng - PH47618
+          </div>
+        </div>         
+      </footer>
+</body>
+</html>
